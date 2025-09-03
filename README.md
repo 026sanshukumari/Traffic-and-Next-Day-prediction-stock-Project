@@ -1,6 +1,6 @@
 # Traffic-and-Next-Day-prediction-stock-Project
- Downloads historical data from Yahoo Finance (`yfinance`)
- Cleans columns and builds features (Open–Close, High–Low, % changes)
+1)Downloads historical data from Yahoo Finance (`yfinance`)
+2)Cleans columns and builds features (Open–Close, High–Low, % changes)
 3) Splits data in **time order** (no shuffling)
 4) Trains a **LightGBM** regression model
 5) Evaluates with **RMSE**
